@@ -1,0 +1,36 @@
+/* * {
+    font-family: sans-serif;
+} */
+
+body {
+    font-size: 24px;
+}
+
+p:hover {
+    font-family: monospace;
+
+}
+
+/* #first#nested>p {
+    color: green;
+} */
+
+#first,#second {
+    color: blue;
+}
+
+.purple {
+    color: purple !important;
+    font-family: monospace;
+
+}
+
+.highlight {
+    background-color: yellow;
+    font-weight: bolder;
+    font-style: italic;
+}
+/* prority of id , class. element
+id > class > element
+
+mainly we should not use id in css, try to use class most of the time */
